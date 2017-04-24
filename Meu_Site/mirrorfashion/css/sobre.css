@@ -1,0 +1,143 @@
+/*cor dos textos e tipos da fonte*/
+body {
+	  color: #333333;
+	  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+/*imagem de fundo de todos os H1, e espaçamento*/
+.titulo{
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+    font-size: 28px;
+    margin-top: 20px;
+}
+/*borda bottom e margin-top*/
+em{
+	font-style: italic;
+}
+h2 {
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+	font-size: 22px;
+	font-style: bold;
+}
+/*cor de fundo alterada, borda, alinhamento do texto*/
+figure {
+	  background-color: #F2EDED;
+	  border: 1px solid #ccc;
+	  text-align: center;
+	  padding: 15px;
+	  margin: 30px;
+}
+/*alteração da font-style, margin-top*/
+figcaption {
+	  font-style: italic;
+	  margin-top: 10px;
+}
+p {
+      padding: 0 45px;
+      text-indent: 15px;
+      margin-top: 10px;
+}
+#diferenciais ul li{
+	margin-top: 4px;
+	list-style-type: disc;
+	margin-left: 20px;
+}
+#diferenciais{
+	margin: 10px;
+}
+/*Alteração do tamanho da imagem do centro de distribuição*/
+#centro-distribuicao{
+	margin-right: auto;
+	margin-left: auto;
+	width: 550px;
+}
+/*Estilo imagem familia pelho*/
+#familia-pelho{
+	float:right;
+	margin: 0 0 10px 10px;
+}
+p:first-letter{
+	font-weight: bold;
+}
+h1+p{
+	text-indent: 0;
+}
+:not(p) + p:first-line{
+	font-variant: small-caps;
+}
+/*Estilo CABEÇALHO*/
+.sacola{
+	background: url(../img/sacola.png) no-repeat top right;
+	font-size: 14px;
+	padding-right: 35px;
+	text-align: right;
+	width: 140px;
+	padding-top: 8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 0;
+}
+.menu-opcoes ul{
+	font-size: 15px;
+}
+.menu-opcoes a{
+	color: #003366;
+}
+.menu-opcoes ul li{
+	display: inline;
+	margin-left: 20px;
+}
+/*classe container centralizada*/
+.container{
+	margin: 0 auto;
+	width: 940px;
+}
+header{
+	position: relative;
+}
+/*posicionamento do menu-opções*/
+.menu-opcoes{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/*Fim estilo cabeçalho*/
+
+/*Estilo Rodapé*/
+footer{
+	background-image: url(../img/fundo-rodape.png);
+	clear: both;
+	padding: 20px 0;
+}
+.social a{
+	height: 32px;
+	width: 32px;
+
+	/*image replacement*/
+	display: block;
+	text-indent: -9999px;
+}
+.social a[href*="facebook.com"]{
+	background-image: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"]{
+	background-image: url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"]{
+	background-image: url(../img/googleplus.png);
+}
+footer .container{
+	position: relative;
+}
+.social{
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+.social li{
+	float: left;
+	margin-left: 25px;
+}
+/*Fim do Estilo Rodapé*/
